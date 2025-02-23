@@ -1,0 +1,123 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f9fc;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 30px;
+    background-color: #cfe8f7;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.logo img {
+    width: 80px;
+    height: auto;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    border: 2px solid #4a90e2;
+    border-radius: 25px;
+    background-color: #fff;
+    padding: 5px 15px;
+    width: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.search-bar input {
+    border: none;
+    padding: 10px;
+    outline: none;
+    flex: 1;
+    font-size: 16px;
+    background: transparent;
+}
+
+.search-bar button {
+    border: none;
+    background: none;
+    padding: 8px;
+    cursor: pointer;
+}
+
+nav {
+    display: flex;
+    gap: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    padding: 10px 15px;
+}
+
+nav a:hover, nav a.active {
+    color: #ffcc00;
+}
+
+.login-btn {
+    padding: 8px 15px;
+    background-color: #4a90e2;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.login-btn:hover {
+    background-color: #3578d1;
+}
+
+/* Job Listings */
+.page-title {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 24px;
+    color: #333;
+}
+
+.job-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+}
+
+.job-card {
+    background-color: white;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 250px;
+}
+
+.job-image {
+    height: 100px;
+    background-color: #ddd;
+    margin-bottom: 10px;
+}
+
+.apply-btn {
+    padding: 8px 15px;
+    background-color: #4a90e2;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.apply-btn:hover {
+    background-color: #3578d1;
+}
